@@ -11,6 +11,7 @@ public class ThursdayDemo1ApplicationTests {
 
     @Test
     public void contextLoads() {
+        //qaq
     }
 
 }
