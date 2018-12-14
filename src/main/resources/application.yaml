@@ -1,0 +1,20 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.80.128:3306/daqiongmao?characterEncoding=UTF-8
+    username: root
+    password: 970923
+  profiles:
+    active: test
+mybatis:
+  type-aliases-package: com.baizhi.entity
+server:
+  servlet:
+    jsp:
+      init-parameters:
+        development: true
